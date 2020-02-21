@@ -252,7 +252,7 @@ SERVICES PAGE
 	font-size: 1.3rem;
 }
 #services-info .services-box p {
-	padding: 10px 25px 25px; 
+	padding: 25px 25px 25px; 
 	line-height: 1.2;
 	font-size: 1.1rem;
 }
@@ -297,5 +297,53 @@ SERVICES PAGE
 	margin-top: 12px;
 }
 
+/*************************************************************************************************
+Contact PAGE
+*************************************************************************************************/
+#contact-us {
+	width: 1000px;
+	margin: 5% auto;
+	/* background-color: red; */
+	padding: 10% 0;
+	border: 2px solid;
+	background-color: gainsboro;
+}
+#contact-us h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 5rem;
+	/* font-family: 'Odibee Sans', cursive; */
+}
+#contact-us h6 {
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+#contact-us p {
+	display: flex;
+	justify-content: center;
+	font-size: 1.5rem;
+	line-height: 1.4;
+}
+#contact-us .input-name {
+	margin: 50px 0 30px 130px;
+} 
+#contact-us .input-email {
+	margin: 50px 0 30px 130px;
+} 
+#contact-us .message {
+	margin: 50px 0 30px 130px;
+} 
 
-
+.input {
+	height: 50px;
+	font-size: 1rem;
+	margin-top: 2%;
+}
+.message1 {
+	margin-bottom: 2%;
+	
+}
+.textarea {
+	
+	font-size: 1.3rem;
+}
