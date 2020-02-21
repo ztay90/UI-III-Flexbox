@@ -63,14 +63,13 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/**************************************************************************************************/
+/***********************************************************************************************/
 
 header {
 	width: 100%;
 	display: flex;
 	padding: 12px;
 	background-color: #1160B0;
-	/* position: fixed; */
 	justify-content: space-between;
 }
 nav {
@@ -90,7 +89,7 @@ nav a {
 	margin: 0 1%;
 }
 
-/**************************************************************************************************/
+/***********************************************************************************************/
 
 .title-section {
 	display: flex;
@@ -126,7 +125,7 @@ nav a {
 	margin-right: 15%;
 }
 
-/**************************************************************************************************/
+/***********************************************************************************************/
 
 section .info1 {
 	display: flex;
@@ -168,7 +167,7 @@ section .info2 p {
 	font-size: 1rem;
 }
 
-/**************************************************************************************************/
+/***********************************************************************************************/
 
 footer {
 	margin: 50px 0 0 225px;
@@ -185,7 +184,7 @@ footer .copyright {
 	margin: 70px 0 40px 350px;
 }
 
-/**************************************************************************************************/
+/***********************************************************************************************/
 
 .line {
 	margin: 100px 0 0 155px;
@@ -197,3 +196,106 @@ footer .copyright {
 	width: 75%;
 	border-bottom: 1px solid black;
 }
+
+/*************************************************************************************************
+SERVICES PAGE
+*************************************************************************************************/
+.header-img {
+	display: flex;
+	justify-content: center;
+	margin: 3% 0;
+}
+
+.services-header-img {
+	width: 80%;
+}
+.services-heading {
+	margin-left: 10%;
+}
+.services-heading h3 {
+	font-size: 1.5rem;
+}
+.services-heading p {
+	/* width: 1125px; */
+	width: 90%;
+	font-size: 1.2rem;
+}
+/***********************************************************************************************/
+.line3 {
+	display: flex;
+	justify-content: center;
+	margin: 40px 0 40px 135px;
+	width: 80%;
+	border-bottom: 1px solid black;
+}
+.line4 {
+	margin: 40px 0 40px 135px;
+	width: 80%;
+	border-bottom: 1px solid black;
+}
+/***********************************************************************************************/
+#services-info {
+	/* width: 1125px; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#services-info .services-box {
+	width: 525px;
+	height: 275px;
+	border: 1px solid;
+	background-color: gainsboro;
+	margin: 2%;
+}
+#services-info .services-box h4 {
+	padding: 25px 25px 0 25px;
+	font-size: 1.3rem;
+}
+#services-info .services-box p {
+	padding: 10px 25px 25px; 
+	line-height: 1.2;
+	font-size: 1.1rem;
+}
+#services-info .services-box a {
+	border: 1px solid;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	padding: 5px 30px;
+	font-size: .8rem;
+	margin-left: 25px;
+}
+#services-info .services-box .button {
+	border: 1px solid;
+}
+
+/***********************************************************************************************/
+
+#facts-section {
+	display: flex;
+	/* width: 1125px; */
+	justify-content: space-around;
+}
+#facts-section .some-facts {
+	width: 400px;
+}
+#facts-section .some-facts h4 {
+	font-size: 1.3rem;
+}
+#facts-section .some-facts p {
+	line-height: 1.2;
+	font-size: 1.1rem;
+}
+#facts-section .some-facts ul {
+	margin-top: 25px;
+	list-style: square;
+	margin-left: 5%;
+}
+#facts-section .some-facts li {
+	font-size: 1.1rem;
+	margin-top: 12px;
+}
+
+
+
