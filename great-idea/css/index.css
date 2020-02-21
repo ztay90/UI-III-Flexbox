@@ -338,12 +338,13 @@ Contact PAGE
 	height: 50px;
 	font-size: 1rem;
 	margin-top: 2%;
+	border-radius: 5px;
 }
 .message1 {
 	margin-bottom: 2%;
 	
 }
 .textarea {
-	
+	border-radius: 5px;
 	font-size: 1.3rem;
 }
